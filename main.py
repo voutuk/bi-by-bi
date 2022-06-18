@@ -6,7 +6,7 @@ from aiogram.utils.executor import start_webhook
 from aiogram import Bot, types
 
 
-TOKEN = os.getenv('5349715079:AAGxtfeDKtTXyf6y3T4DCQNRjQbfg0W_70Q')
+TOKEN = "5349715079:AAGxtfeDKtTXyf6y3T4DCQNRjQbfg0W_70Q"
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
